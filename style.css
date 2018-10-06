@@ -1,0 +1,129 @@
+header,
+  footer {
+  background-color: rgb(0,0,139);
+  min-width: 450px;
+  min-height: 50px;
+  text-align: center;
+}
+
+.intro {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 300;
+  margin: 10px;
+  margin-top: 30px;
+  font-family: 'PT Sans', sans-serif;
+}
+#title {
+  color: gold;
+  font-weight: 600;
+  font-size: 75px;
+  margin: 10px;
+  font-family: 'Mali', cursive;
+}
+
+ul {
+  margin: 30px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+li {
+  background: white;
+  color: #FFF;
+  font-family: 'Mali', cursive;
+  border: 1px solid white;
+  border-radius: 3px;
+  color: white;
+  font-size: 16px;
+  font-weight: 300;
+  text-transform: uppercase;
+  display: inline-block;
+  width: 110px;
+  margin: 10px;
+}
+
+img {
+  height: auto;
+  max-height: 260px;
+  width: 100%;
+  overflow: auto;
+}
+
+.navigation ul {
+  margin: 0;
+  text-align: center;
+  padding: 1px;
+}
+
+.navigation li {
+  font-weight: 100;
+  letter-spacing: 0px;
+  padding: 0px;
+}
+
+.grid {
+  display: grid;
+  overflow: auto;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: repeat(3, 460px);
+  grid-auto-rows: 520px;
+  grid-gap: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  align-items: stretch;
+  align-content: center;
+  justify-content: center;
+  grid-auto-flow: row;
+}
+
+h2 {
+  font-family: 'Mali', cursive;
+  text-align: center;
+  font-weight: 800;
+  font-size: 25px;
+  letter-spacing: 0.275px;
+  color: darkblue;
+  padding: 8px 2px 8px 2px;
+}
+
+figcaption {
+   font-size: 11px;
+   text-align: center;
+}
+
+.hike {
+  width: auto;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.story {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 18px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 8px 1px 8px 8px;
+  letter-spacing: 0.12px;
+  text-align: left;
+  line-height: 1.32;
+  color: black;
+}
+
+.buttons {
+  display: inline-block;
+}
+
+.visit {
+  margin-top: 10px;
+  color: white;
+}
+#pic {
+  height: 80px;
+  width: 100px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
+}
