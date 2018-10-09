@@ -1,9 +1,13 @@
 header,
   footer {
+  background-image: url("images/mts.png");
   background-color: rgb(0,0,139);
   min-width: 450px;
   min-height: 50px;
   text-align: center;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center
 }
 
 body {
@@ -20,6 +24,7 @@ body {
   padding-left: 20px;
   padding-right: 20px;
 }
+
 #title {
   color: gold;
   font-weight: 600;
@@ -126,8 +131,20 @@ figcaption {
   color: black;
 }
 
+.video {
+  text-align: center;
+  font-family: 'Mali', cursive;
+  font-size: 25px;
+}
+
 .buttons {
   display: inline-block;
+}
+
+.buttond:hover {
+  background: yellow;
+  border: 1px solid lightsteelblue;
+  color: red;
 }
 
 .visit {
